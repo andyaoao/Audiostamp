@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+  <drawable name="waveform_selected">#8dffff</drawable>
+  <drawable name="waveform_unselected">#0000FF</drawable><!--#106072  -->
+  <drawable name="waveform_unselected_bkgnd_overlay">#00000000</drawable><!--#33000000  -->
+  <drawable name="selection_border">#ED661C</drawable>
+  <drawable name="playback_indicator">#ffff66</drawable>
+  <drawable name="grid_line">#ffffff</drawable>
+  <drawable name="timecode">#ddffffdd</drawable>
+  <drawable name="timecode_shadow">#00000000</drawable><!-- #aa000000 -->
+  <!-- 
+  <drawable name="type_bkgnd_alarm">#88880000</drawable>
+  <drawable name="type_bkgnd_ringtone">#88008888</drawable>
+  <drawable name="type_bkgnd_notification">#88666600</drawable>
+  <drawable name="type_bkgnd_music">#00000000</drawable>
+  <drawable name="type_bkgnd_unsupported">#88cccccc</drawable>
+   --> 
+  <color name="trans">#00000000 </color>   
+</resources>

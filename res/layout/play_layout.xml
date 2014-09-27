@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"	android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"  android:layout_height="0dip"
+        android:layout_weight="1">
+		<ListView	android:id="@+id/tab_playlist_list"
+			android:layout_width="fill_parent"  android:layout_height="match_parent"
+			android:fadingEdge="none" android:cacheColorHint="@android:color/transparent"
+			android:scrollbars="none"	android:gravity="center"
+			android:divider="@drawable/line"	android:dividerHeight="1dp"/>
+		<ImageView android:id="@+id/tab_playlist_mask"
+		    android:layout_width="fill_parent"  android:layout_height="match_parent"
+		    android:background="#CC000000"	android:contentDescription=".mask"
+		    android:visibility="gone"
+		    />
+	</RelativeLayout>
+	
+	<LinearLayout	android:id="@+id/tab_playlist_stamplist"	
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"	android:layout_height="wrap_content"
+	    android:gravity="center" android:layout_marginTop="3dip"
+	    android:background="@drawable/bg_stampbar">
+		
+		<ImageView	android:id="@+id/tab_playlist_stamp_green" 
+		    android:layout_width="0dip"	android:layout_height="wrap_content"
+		    android:layout_weight="1"	android:background="@drawable/ss_green"
+		    android:layout_margin="3dip"/>
+		
+		<ImageView	android:id="@+id/tab_playlist_stamp_blue" 
+		    android:layout_width="0dip"	android:layout_height="wrap_content"
+		    android:layout_weight="1"	android:background="@drawable/ss_blue"
+		    android:layout_margin="3dip"/>
+		
+		<ImageView	android:id="@+id/tab_playlist_stamp_yellow" 
+		    android:layout_width="0dip"	android:layout_height="wrap_content"
+		    android:layout_weight="1"	android:background="@drawable/ss_yellow"
+		    android:layout_margin="3dip"/>
+		
+		<ImageView	android:id="@+id/tab_playlist_stamp_pink" 
+		    android:layout_width="0dip"	android:layout_height="wrap_content"
+		    android:layout_weight="1"	android:background="@drawable/ss_pink"
+		    android:layout_margin="3dip"/>
+		
+		<ImageView	android:id="@+id/tab_playlist_stamp_orange" 
+		    android:layout_width="0dip"	android:layout_height="wrap_content"
+		    android:layout_weight="1"	android:background="@drawable/ss_orange"
+		    android:layout_margin="3dip"/>
+		
+		<ImageView	android:id="@+id/tab_playlist_stamp_add" 
+		    android:layout_width="0dip"	android:layout_height="wrap_content"
+		    android:layout_weight="1"	android:background="@drawable/ss_add"
+		    android:layout_margin="3dip"/>
+	</LinearLayout>
+	
+	<LinearLayout	android:id="@+id/tab_playlist_media"	
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"	android:layout_height="wrap_content"
+	    android:layout_margin="3dip"	android:gravity="center_vertical"
+	    android:visibility="gone">
+				
+	    <ImageButton	android:id="@+id/tab_playlist_skipback" 
+		    android:layout_width="wrap_content"	android:layout_height="wrap_content"
+		    android:src="@drawable/playback_skipback"	android:background="@android:color/transparent"/>
+		
+		<ImageButton	android:id="@+id/tab_playlist_play" 
+		    android:layout_width="wrap_content"	android:layout_height="wrap_content"
+		    android:src="@drawable/playback_play"	android:background="@android:color/transparent"/>
+		
+		<ImageButton	android:id="@+id/tab_playlist_skipforward" 
+		    android:layout_width="wrap_content"	android:layout_height="wrap_content"
+		    android:src="@drawable/playback_skipforward"	android:background="@android:color/transparent"/>
+	</LinearLayout>
+	
+</LinearLayout>
